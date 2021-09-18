@@ -1,0 +1,17 @@
+(to - from + 1) < 1
+to - from < 0
+-from < -to
+from >= to
+
+
+int x = 5
+string s = (x > 6 ? "false" : "true");
+
+std::cout << s;
+
+if (x > 6){
+    s = false;
+} 
+else{
+    s = true
+}
